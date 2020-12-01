@@ -1,0 +1,317 @@
+/* screen size below 1200 px */
+
+@media only screen and (max-width: 1200px) {
+    
+        .slider-block {    
+            max-width: 70vw;
+        }
+    
+        .navigation-line {
+            min-height: 35vh;
+            padding: 1rem;
+        }
+    }
+
+
+
+/* screen size below 1024 px */
+
+@media only screen and (max-width: 1024px) {
+            
+        main,
+        section {
+            margin-top: 4rem;
+        }
+    
+        .slider-block {    
+            max-width: 80vw;
+        }
+    
+        .row {
+            max-width: 90vw;
+        }
+    
+        .footer-logo,
+        .address-line,
+        .social-media {
+            margin: 4rem auto 0 auto;
+        }
+        
+    }
+
+
+
+/* screen size below 900 px */
+
+@media only screen and (max-width: 900px) {
+        
+        body {
+            line-height: 1.6;
+            font-size: 1.6rem;
+        }
+        main,
+        section {
+            margin-top: 3rem;
+        }
+    
+        .slider-block {    
+            max-width: 90vw;
+        }
+    
+        .row {
+            max-width: 95vw;
+        }
+    
+        .main-header {
+            font-size: 3rem;
+        }
+        
+        .header-secondary {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            letter-spacing: .1rem;
+        }
+
+        .header-tertiary {
+            margin: 1rem auto;
+        }
+
+        .navigation-buttons {
+            font-size: 1.45rem;
+        }
+
+        .btn:link,
+        .btn:visited,
+        input[type=submit] {
+            margin: 1rem auto;
+        }
+
+        .expertise-box {
+            margin: 1rem auto;
+        }
+
+        .expertise-paragraph:after {
+            margin: 1rem auto;
+        }
+
+        .expertise-box__icon {
+            font-size: 2.5rem;
+        }
+
+        .section-team {
+            padding: 2rem;
+        }
+
+        .underline {
+            padding-bottom: 1rem;
+        }
+
+        .team-footer {
+            margin-top: 2rem;
+        }
+
+        .works-gallery {
+            margin: 2rem auto;
+        }
+
+        .works-footer {
+            margin: 2rem auto;
+        }
+
+        .comment-block {
+            width: 70%;        
+            margin: 4rem auto;
+        }
+
+        blockquote:before {
+            font-size: 200%;
+        }
+
+        .testimonial-text {
+            margin-bottom: 3rem;
+        }
+
+        .comment-block h3 {
+            font-size: 1.4rem;
+        }
+
+        .control {
+            font-size: 2rem;
+        }
+
+        .dot-image {
+            height: 5rem;
+            width: 5rem;
+        }
+
+        .form-input {
+            font-size: inherit;
+            padding: .5rem 1rem;
+        }
+
+        #message {
+            min-height: 10rem;
+        }
+
+        .customer-logo {
+            max-width: 9rem;
+        }
+
+        .footer-logo,
+        .address-line,
+        .social-media {
+            margin: 3rem auto 0 auto;
+        }
+
+        .navigation-buttons {
+            margin: 3rem auto;
+        }
+    
+        .form-group {
+            max-width: 90%;
+        }
+    
+        .media-logo__item {
+            font-size: 2rem;
+        }
+    
+
+    }
+               
+/* screen size below 700 px */
+
+@media only screen and (max-width: 700px) {
+        
+        .navigation-buttons {
+            font-size: 1.3rem;
+            margin: 2rem auto;
+        }
+    
+        .logo-small {
+            max-height: 6rem;
+        }
+}
+
+
+
+               
+/* screen size below 600 px */
+
+@media only screen and (max-width: 600px) {
+    
+        body {
+            line-height: 1.4;
+            font-size: 1.4rem;
+        }
+    
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin: auto 2rem;
+        }
+    
+        .slider-block {    
+            max-width: 95vw;
+        }
+    
+        .main-header {
+            font-size: 2rem;
+        }
+        
+        .header-secondary {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            letter-spacing: .1rem;
+            text-align: center;
+        }
+    
+        .header-tertiary {
+            font-size: 1.4rem;
+        }
+
+        .navigation-buttons {
+            font-size: 1.4rem;
+            flex-direction: column;
+        }
+        
+        .story-logo {
+            width: 100%;
+        }
+    
+        .logo-big {
+            width: 50%;
+        }
+        
+        .video-controls {
+            position: absolute;
+            top: 40%;
+            left: 40%;
+        }
+    
+        .expertise-box {
+            max-width: 80vw;
+            margin: 0 auto;
+        }
+
+        .expertise-box__icon {
+            font-size: 2rem;
+        }
+    
+        .section-team {
+            flex-wrap: wrap;
+        }
+
+        .team-box {
+            max-width: 45%;
+        }
+
+        .team-img {
+            width: 50%;
+            margin-top: .5rem;
+        }
+    
+        .dot-image {
+            height: 3rem;
+            width: 3rem;
+        }
+    
+    .section-contact {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contact-form {
+        min-width: 100%;
+    }
+    
+    .labels-flex {
+        flex-direction: column;
+        flex-shrink: 1;
+    }
+    
+    .customer-logo {
+        max-width: 70%;
+    }
+    
+    .labels {
+        display: flex;
+    }
+    
+    .footer-logo,
+    .address-line,
+    .social-media {
+        margin: 1rem 1rem;
+    }
+
+    .footer-nav {
+        flex-direction: column;
+        margin: auto 3rem;
+    }
+    
+        
+    .footer-nav {
+        flex-direction: row;
+    }
+
+}
+
